@@ -6,10 +6,15 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import datetime
 
-from models import JsonDump
 from urllib import urlopen
 import json
 TRIES = 20
+
+def home(request):
+  return render(request, 'home.html')
+
+def language_partners(request):
+  return render(request, 'language_partners.html')
 
 def json_endpoint(request):
   data = get_api()
@@ -25,7 +30,7 @@ def json_endpoint(request):
 def index(request):
   data = get_api()
   google_map = get_gmap_url(data['locations'])
-  return render(request, 'phlebotomy.html',{'data': data,'google_map': google_map, })
+  return render(request, 'tutorme.html',{'data': data,'google_map': google_map, })
 
 def get_api():
   '''Gets the necessary data from the api and stores it in the JsonDump database table.

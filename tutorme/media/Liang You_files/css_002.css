@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allura'), local('Allura-Regular'), url(http://themes.googleusercontent.com/static/fonts/allura/v2/ExiT4hKozv4E-LiOi2vvJA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/amaticsc/v4/DPPfSFKxRTXvae2bKDzp5D8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arizonia'), local('Arizonia-Regular'), url(http://themes.googleusercontent.com/static/fonts/arizonia/v4/8Usm7f8XTsZinW2e-ZMd5fesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Averia Sans Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Averia Sans Libre Regular'), local('AveriaSansLibre-Regular'), url(http://themes.googleusercontent.com/static/fonts/averiasanslibre/v2/yRJpjT39KxACO9F31mj_LqOxStDXxcWVrHkhVmjuyZ8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Sketch Regular'), local('CabinSketch-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabinsketch/v6/d9fijO34zQajqQvl3YHRCXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Francois One Regular'), local('FrancoisOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/francoisone/v7/bYbkq2nU2TSx4SwFbz5sCHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(http://themes.googleusercontent.com/static/fonts/frederickathegreat/v3/7Es8Lxoku-e5eOZWpxw18vc3vBAn7YvtW9hNjxWZBR0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Jacques Francois Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jacques Francois Shadow'), local('JacquesFrancoisShadow-Regular'), url(http://themes.googleusercontent.com/static/fonts/jacquesfrancoisshadow/v2/V14y0H3vq56fY9SV4OL_FM_jayyzA3TaKmOW7WWNSn0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/46aYWdgz-1oFX11flmyEfXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/kaushanscript/v2/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Love Ya Like A Sister Regular'), local('LoveYaLikeASister-Regular'), url(http://themes.googleusercontent.com/static/fonts/loveyalikeasister/v5/LzkxWS-af0Br2Sk_YgSJY5HSI-O7NEBdNbD5SV3GSEY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), url(http://themes.googleusercontent.com/static/fonts/merriweather/v6/RFda8w1V0eDZheqfcyQ4EHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Offside';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Offside'), local('Offside-Regular'), url(http://themes.googleusercontent.com/static/fonts/offside/v2/_zg2zDrkjlbS-MUZInZH8g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Over the Rainbow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Over the Rainbow'), local('OvertheRainbow'), url(http://themes.googleusercontent.com/static/fonts/overtherainbow/v5/6gp-gkpI2kie2dHQQLM2jV7JQLNqXe_ZNPdm_g-gn8I.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Romanesco';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Romanesco'), local('Romanesco-Regular'), url(http://themes.googleusercontent.com/static/fonts/romanesco/v3/ulV2bu0ivcWDuAzM7oh4XT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sacramento'), local('Sacramento-Regular'), url(http://themes.googleusercontent.com/static/fonts/sacramento/v2/WFDkXpubrEwopJnSlHV6CBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Seaweed Script'), local('SeaweedScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/seaweedscript/v2/eorWAPpOvvWrPw5IHwE60FhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Special Elite'), local('SpecialElite-Regular'), url(http://themes.googleusercontent.com/static/fonts/specialelite/v4/9-wW4zu3WNoD5Fjka35Jm_n8qdNnd5eCmWXua5W-n7c.woff) format('woff');
+}

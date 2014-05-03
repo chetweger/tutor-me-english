@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+  <h2>Welcome to BIKENAB</h2>
+</div>
+<a href="/register_page/">Create a BIKENAB account.</a> 
+
+<br>
+<br>
+
+<a href="/search_page/">Search The Database for Stolen Bike Serial Numbers.</a>
+
+<br>
+<br>
+
+<br>
+<form method = "post" action = "sign_in/">{% csrf_token %}
+    
+<label for="name">Name</label>
+<br>
+<input type="text" name="name" id="name">
+<br>
+
+<label for="password">Password</label>
+<br>
+<input type="password" name="password" id="password">
+<br>
+
+<input type="submit" value="Login">
+</form> 
+ 
+{% endblock %}

@@ -1,5 +1,5 @@
 """
-Django settings for phlebotomy project.
+Django settings for tutorme project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'phlebotomy'
+    'tutorme'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'phlebotomy.urls'
+ROOT_URLCONF = 'tutorme.urls'
 
-WSGI_APPLICATION = 'phlebotomy.wsgi.application'
+WSGI_APPLICATION = 'tutorme.wsgi.application'
 
 
 # Database
@@ -88,7 +88,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (
-  CURRENT_PATH + '/phlebotomy/templates/'
+  CURRENT_PATH + '/tutorme/templates/'
 )
 
 # A sample logging configuration. The only tangible logging
@@ -136,7 +136,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = CURRENT_PATH + '/phlebotomy/js'
+MEDIA_ROOT = CURRENT_PATH + '/tutorme/media'
 
 
 STATICFILES_DIRS = (
