@@ -1,8 +1,8 @@
-"""Describes the database schema.
-"""
-
 from django.db import models
 
-class JsonDump(models.Model):
-  json = models.TextField()
-  time = models.DateTimeField()
+class Tutor(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.CharField(max_length=100)
+    password = models.CharField(max_length=100)
+    college = models.CharField(max_length=100)
+    image_url = models.CharField(max_length=100)

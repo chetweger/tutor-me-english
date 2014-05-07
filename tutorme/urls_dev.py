@@ -8,12 +8,10 @@ admin.autodiscover()
 import settings_dev
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'tutorme.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
-    url(r'^json/', 'tutorme.views.json_endpoint'),
     url(r'^$', 'tutorme.views.home'),
     url(r'^language_partners/$', 'tutorme.views.language_partners'),
+    url(r'^signup/$', 'tutorme.views.signup'),
+    url(r'^login/$', 'tutorme.views.login'),
 
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', { 'document_root': settings_dev.MEDIA_ROOT }),
 

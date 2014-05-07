@@ -1,25 +1,19 @@
-{% extends "base.html" %}
-{% block content %}
+<html>
+
+<head>
+</head>
+
+<body>
 <div>
-  <h2>Create your own BIKENAB account.</h2>
+  <h2>Sign up to become a Tutor.</h2>
 </div>
 <br>
 
-<form method = "post" action = "/register/" enctype="multipart/form-data">{% csrf_token %}
+<form method = "post" action = "/signup/" enctype="multipart/form-data">{% csrf_token %}
     
 <label for="name">Enter your name:</label>
 <br>
 <input type="text" name="name" id="name">
-<br>
-
-<label for="password">Enter a password:</label>
-<br>
-<input type="password" name="password" id="password">
-<br>
-
-<label for="passwordRepeat">Repeat password:</label>
-<br>
-<input type="password" name="passwordRepeat" id="passwordRepeat">
 <br>
 
 <label for = "email">Enter you email:</label>
@@ -27,75 +21,32 @@
 <input type="text" name="email" id="email">
 <br>
 
-<label for = "address">Your address:</label>
+<label for="password">Enter a password:</label>
 <br>
-<input type="text" name="address" id="address">
-<br>
-
-<label for = "age">Enter you age:</label>
-<br>
-<input type="text" name="age" id="age">
+<input type="password" name="password" id="password">
 <br>
 
-Your Gender:
+<label for="password_repeat">Repeat password:</label>
 <br>
-<input type="radio" name="sex" value="male">Male<br>
-<input type="radio" name="sex" value="female">Female
-<br>
-
-<label for = "policeEmail">Enter your local police department's email:</label>
-<br>
-<input type="text" name="policeEmail" id="policeEmail">
+<input type="password" name="password_repeat" id="password_repeat">
 <br>
 
+<label for = "college">Enter the name of your college:</label>
 <br>
-<!-- bike stuff //-->
-<label for = "serialNumber">Enter your bikes serial number:</label>
-<br>
-<input type="text" name="serialNumber" id="serialNumber">
+<input type="text" name="college" id="college">
 <br>
 
-<label for = "images">Upload up to 3-6 images of your bike:</label>
+<label for = "image">Upload a Profile picture:</label>
 <br>
-<input type="file" name="images" id="images" multiple>
-<br>
-
-<label for = "description">Enter a brief description of the bike.</label>
-<br>
-<input type="text" name="description" id="description">
+<input type="file" name="image" id="image">
 <br>
 
-<label for = "locationPurchase">Address of purchase:</label>
-<br>
-<input type="text" name="locationPurchase" id="locationPurchase">
-<br>
-
-<label for = "datePurchase">Date of purchase (yyyy, mm, dd):</label>
-<br>
-<input type="text" name="datePurchase" id="datePurchase">
-<br>
-
-<label for = "price">Select price of bike:</label>
-<br>
-<input type="text" name="price" id="price">
-<br>
-
-<!--
-move to somewhere else
-<label for="serialNumber">Serial Number</label>
-<br>
-<input type="text" name="serialNumber" id="serialNumber">
-<br>
-//-->
-
-<!-- [comment:]
-<label for = "image">Photo</label>
-<br>
-<input name="image" type="file" />
-<br>
-//-->
-
-<input type="submit" value="Create!">
+{%if error_message%}
+<H3>Error: {{error_message}}</H3>
+{%endif%}
+<input type="submit" value="Sign up!">
 </form> 
+</body>
 
-{% endblock %}
+</html
+
