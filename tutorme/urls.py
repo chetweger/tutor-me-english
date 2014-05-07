@@ -13,7 +13,7 @@ urlpatterns = patterns('',
     url(r'^signup/$', 'tutorme.views.signup'),
     url(r'^login/$', 'tutorme.views.login'),
 
-    (r'^media/(?P<path>.*)$', 'django.views.static.serve', { 'document_root': settings_dev.MEDIA_ROOT }),
+    (r'^media/(?P<path>.*)$', 'django.views.static.serve', { 'document_root': settings.MEDIA_ROOT }),
 
 
     url(r'^admin/', include(admin.site.urls)),
