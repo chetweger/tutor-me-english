@@ -5,59 +5,12 @@
 </head>
 
 <body>
-
+<h3>List of tutors:</h3>
 <li>
 {% for tutor in tutors %}
-<ul><p>Hi, my name is: {{tutor.name}}  <p>My email is: {{tutor.email}}  <p>I attend: {{tutor.college}} <p>Here is a picture of me:  <img src="{{tutor.image_url}}"></ul>
+<ul><p>Name: {{tutor.name}}  <p>Email: {{tutor.email}}  <p>College: {{tutor.college}} <p>Picture:  <img src="{{tutor.image_url}}"></ul>
 {% endfor %}
 </li>
-
-<!--
-<table border="1">
-<tr>
-  <th>Dist. metric</th>
-  <th colspan="4">Split-Join (sj)</th>
-  <th colspan="4">NMI</th>
-</tr>
-<tr>
-  <td></td>
-  <td>Min</td>
-  <td>Mean</td>  
-  <td>Std. Dev.</td>
-  <td>Max</td>
-  <td>Min</td>
-  <td>Mean</td>  
-  <td>Std. Dev.</td>
-  <td>Max</td>
-</tr>
-
-<tr>
-  <td>pgp (100 iterations)</td>
-  <td> 0.0 </td>  
-  <td> 5.3e-05 </td>
-  <td> 6.9e-05 </td>
-  <td> 2.8e-04 </td>
-  <td> 0.0 </td>
-  <td> 1.7e-05 </td>
-  <td> 2.3e-05 </td>
-  <td> 1.0e-04 </td>
-</tr>
-
-<tr>
-  <td>er-5000 (50 iterations)</td>
-  <td> 0.0 </td>  
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-  <td> 0.0 </td>
-</tr>
-</table>
--->
-
-
 </body>
 
 </html>
