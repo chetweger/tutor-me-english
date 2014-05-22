@@ -10,24 +10,23 @@
 </div>
 <br>
 
-<form method = "post" action = "/login/" enctype="multipart/form-data">{% csrf_token %}
+<form method = "post" action = "/auth/" enctype="multipart/form-data">{% csrf_token %}
 
-<label for = "email">Enter you email:</label>
+<label for = "username"> User name:</label>
 <br>
-<input type="text" name="email" id="email">
-<br>
-
-<label for="password">Enter your password:</label>
+<input type="text" name="username" id="username">
 <br>
 
-<input type="password" name="password" id="password">
+<label for="password"> Password:</label>
 <br>
 
-{%if error_message%}
-<H3>Error: {{error_message}}</H3>
-{%endif%}
+<input type="password" name="password" value="" id="password">
+<br>
+
 <input type="submit" value="Login!">
+
 </form> 
 </body>
 
 </html>
+
