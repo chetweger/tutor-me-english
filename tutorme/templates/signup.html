@@ -4,49 +4,15 @@
 </head>
 
 <body>
-<div>
-  <h2>Sign up to become a Tutor.</h2>
-</div>
-<br>
+<h2>Register</h2>
+<form action="/signup/" method="post">{% csrf_token %}
+{{form}}
 
-<form method = "post" action = "/signup/" enctype="multipart/form-data">{% csrf_token %}
-    
-<label for="name">Enter your name:</label>
-<br>
-<input type="text" name="name" id="name">
-<br>
+<input type="submit" value="Sign up" />
 
-<label for = "email">Enter you email:</label>
-<br>
-<input type="text" name="email" id="email">
-<br>
-
-<label for="password">Enter a password:</label>
-<br>
-<input type="password" name="password" id="password">
-<br>
-
-<label for="password_repeat">Repeat password:</label>
-<br>
-<input type="password" name="password_repeat" id="password_repeat">
-<br>
-
-<label for = "college">Enter the name of your college:</label>
-<br>
-<input type="text" name="college" id="college">
-<br>
-
-<label for = "image">Upload a Profile picture:</label>
-<br>
-<input type="file" name="image" id="image">
-<br>
-
-{%if error_message%}
-<H3>Error: {{error_message}}</H3>
-{%endif%}
-<input type="submit" value="Sign up!">
-</form> 
+</form>
 </body>
 
-</html
+</html>
+
 
