@@ -1,8 +1,11 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-class Tutor(models.Model):
-    name = models.CharField(max_length=100)
-    email = models.CharField(max_length=100)
-    password = models.CharField(max_length=100)
+class UserProfile(models.Model):
+    user = models.OneToOneField(User)
+
     college = models.CharField(max_length=100)
-    image_url = models.CharField(max_length=100)
+    weekend = models.BooleanField()
+
+    def __unicode__(self):
+        return self.user.username
