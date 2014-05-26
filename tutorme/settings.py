@@ -55,7 +55,6 @@ ROOT_URLCONF = 'tutorme.urls'
 
 WSGI_APPLICATION = 'tutorme.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
