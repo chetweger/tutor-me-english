@@ -7,8 +7,8 @@
 <body>
 <h3>List of tutors:</h3>
 <li>
-{% for tutor in tutors %}
-<ul><p>Name: {{tutor.name}}  <p>Email: {{tutor.email}}  <p>College: {{tutor.college}} <p>Picture:  <img src="{{tutor.image_url}}"></ul>
+{% for user in users %}
+<ul><p>Name: {{user.username}}  </ul>
 {% endfor %}
 </li>
 </body>
