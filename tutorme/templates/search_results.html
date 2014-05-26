@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+</head>
+
+<body>
+<h3>List of tutors:</h3>
+<li>
+{% for result in results %}
+<ul><p>Name: {{result.user.username}}  </ul>
+{% endfor %}
+</li>
+</body>
+
+</html>
