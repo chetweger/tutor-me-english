@@ -1,4 +1,4 @@
 from django.contrib import admin
-from tutorme.models import Tutor
+from tutorme.models import UserProfile
 
-admin.site.register(Tutor)
+admin.site.register(UserProfile)
